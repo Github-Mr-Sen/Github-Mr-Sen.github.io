@@ -46,8 +46,8 @@ export default <VdoingThemeConfig>{
 
   author: {
     // 文章默认的作者信息，可在.md文件front matter中单独配置此信息 String | {name: String, link: String}
-    name: "MonologueChi", // 必需
-    link: "https://blog.xxwhite.com", // 可选的
+    name: "Ks", // 必需
+    // link: "https://blog.xxwhite.com", // 可选的
   },
 
   // 博主信息，显示在首页侧边栏
@@ -70,23 +70,23 @@ export default <VdoingThemeConfig>{
       {
         iconClass: "icon-bilibili",
         title: "哔哩哔哩",
-        link: "https://space.bilibili.com/28474682",
+        link: "https://space.bilibili.com/294124745",
       },
       {
         iconClass: "icon-github",
         title: "GitHub",
-        link: "https://github.com/u2sb/vuepress-theme-vdoing-template",
+        link: "https://github.com/Github-Mr-Sen",
       },
       {
         iconClass: "icon-youjian",
         title: "发邮件",
-        link: "mailto:xxwhite@foxmail.com",
+        link: "zaisenzhang@gmail.com",
       },
     ],
   },
   footer: {
     // 页脚信息, 请根据实际情况修改, 删掉不需要的部分
-    createYear: 2022, // 博客创建年份
+    createYear: 2017, // 博客创建年份
     copyrightInfo: `
       <a href='https://blog.xxwhite.com' target='_blank'>MonoLogueChi</a> | <a href='https://creativecommons.org/licenses/by-nc-sa/4.0/' rel='external nofollow' target='_blank'>CC BY-NC-SA 4.0</a>
       <br>
