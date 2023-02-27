@@ -9575,7 +9575,7 @@ vuepress-plugin-container@^2.0.2:
 
 vuepress-plugin-fulltext-search@^2.2.1:
   version "2.2.1"
-  resolved "https://registry.yarnpkg.com/vuepress-plugin-fulltext-search/-/vuepress-plugin-fulltext-search-2.2.1.tgz#f73cddfec3b878aa83b89559e8985be1e1cc50de"
+  resolved "https://registry.npmmirror.com/vuepress-plugin-fulltext-search/-/vuepress-plugin-fulltext-search-2.2.1.tgz#f73cddfec3b878aa83b89559e8985be1e1cc50de"
   integrity sha512-+BOLOdOTvwg7+4z71fmpuZUaHSw+exrw8S9m0kvBUgIVDoe5VS/G3y4hcd+K1hukbkxE/ec10Ikk8hc/3zf2VQ==
   dependencies:
     flexsearch "^0.6.32"
