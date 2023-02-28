@@ -1,52 +1,46 @@
-name: deploy
 
-# 在main分支发生push事件时触发。
+name: Deploy Docs
+
 on:
   push:
     branches:
-      - master
-
+      # make sure this is the branch you are using
+      - main
 env: # 设置环境变量
   TZ: Asia/Shanghai # 时区（设置时区可使页面中的`最近更新时间`使用时区时间）
 
 jobs:
-  build:
-    runs-on: ubuntu-latest # 运行在虚拟机环境ubuntu-latest
-
+  deploy-gh-pages:
+    runs-on: ubuntu-latest
     steps:
-      # 检出
       - name: Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+          # if your docs needs submodules, uncomment the following line
+          # submodules: true
 
-        # 安装 node
-      - name: Setup Node
+
+
+      - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: "16.x"
-          registry-url: "https://registry.npmjs.org"
-          # cache: "yarn"
+          node-version: 18
+          cache: yarn
 
-        # 构建
-      - name: Build
-        run: |
-          yarn install
-          yarn build
+      - name: Install Deps
+        run: yarn install --frozen-lockfile
 
-        # 同步到又拍云
-      # - name: Deploy upyun
-      #   run: |
-      #     wget -O upx.tar.gz http://collection.b0.upaiyun.com/softwares/upx/upx_0.3.6_linux_x86_64.tar.gz
-      #     tar -zxf upx.tar.gz
-      #     chmod +x upx
-      #     ./upx login ${{ secrets.UP_BUCKET }} ${{ secrets.UP_OPERATOR }} ${{ secrets.UP_OPERATOR_PASSWORD }}
-      #     ./upx sync dist/ / --delete
-      #     ./upx logout
+      - name: Build Docs
+        env:
+          NODE_OPTIONS: --max_old_space_size=8192
+        run: |-
+          yarn run docs:build
+          > src/.vuepress/dist/.nojekyll
 
-      # 发布到 gh-page 分支
-      - name: Deploy github
-        uses: peaceiris/actions-gh-pages@v3
+      - name: Deploy Docs
+        uses: JamesIves/github-pages-deploy-action@v4
         with:
-          publish_dir: ./dist
-          deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
-          user_name: "github-actions[bot]"
-          user_email: "github-actions[bot]@users.noreply.github.com"
+          # This is the branch where the docs are deployed to
+          branch: gh-pages
+          folder: src/.vuepress/dist
