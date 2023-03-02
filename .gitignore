@@ -3,4 +3,6 @@
 /.vscode
 *.log
 /docs/.vuepress/*.mjs
-
+.cache/
+.cache/
+.temp/
