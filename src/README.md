@@ -4,7 +4,7 @@ layout: BlogHome
 icon: home
 title: 博客主页
 
-heroImage: /logo.svg
+heroImage: /logo.png
 heroText: KS の blog
 heroFullScreen: true
 tagline: 悟已往之不谏，知来者之可追
