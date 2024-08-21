@@ -78,12 +78,12 @@ export default hopeTheme({
       displayFooter: true,
 
       blog: {
-        description: "是个废物",
+        description: "无人做你的光芒，就自己照亮远方",
         intro: "/intro.html",
       },
-
+      //页面编辑按钮
       metaLocales: {
-        editLink: "Edit this page on GitHub",
+        editLink: "编辑",
       },
     },
 

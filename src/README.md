@@ -5,7 +5,7 @@ icon: home
 title: 博客主页
 
 bgImage: https://theme-hope-assets.vuejs.press/bg/6-light.svg
-heroImage: /logo2.png
+heroImage: /logo2.svg
 heroText: KS の blog
 heroFullScreen: true
 tagline: 悟已往之不谏，知来者之可追
