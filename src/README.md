@@ -4,6 +4,7 @@ layout: BlogHome
 icon: home
 title: 博客主页
 
+bgImage: https://theme-hope-assets.vuejs.press/bg/6-light.svg
 heroImage: /logo2.png
 heroText: KS の blog
 heroFullScreen: true
