@@ -4,7 +4,7 @@ layout: BlogHome
 icon: home
 title: 博客主页
 
-heroImage: /logo.png
+heroImage: /logo2.png
 heroText: KS の blog
 heroFullScreen: true
 tagline: 悟已往之不谏，知来者之可追
@@ -34,10 +34,10 @@ projects:
     desc: 伙伴详细介绍
     link: https://你的伙伴链接
 
-  - icon: /logo.svg
+  - icon: /logo2.svg
     name: 自定义项目
     desc: 自定义详细介绍
     link: https://你的自定义链接
 
-footer: 自定义你的页脚文字
+footer: <b color='red'>安于得失，淡于成败</b>
 ---

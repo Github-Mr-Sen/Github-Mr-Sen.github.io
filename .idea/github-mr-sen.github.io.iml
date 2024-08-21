@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/src/.vuepress/.temp/pages/category/使用指南" />
+      <excludeFolder url="file://$MODULE_DIR$/src/.vuepress/.temp/pages/category/樱桃" />
+      <excludeFolder url="file://$MODULE_DIR$/src/.vuepress/.temp/pages/category/水果" />
+      <excludeFolder url="file://$MODULE_DIR$/src/.vuepress/.temp/pages/category/火龙果" />
+      <excludeFolder url="file://$MODULE_DIR$/src/.vuepress/.temp/pages/category/苹果" />
+      <excludeFolder url="file://$MODULE_DIR$/src/.vuepress/.temp/pages/category/草莓" />
+      <excludeFolder url="file://$MODULE_DIR$/src/.vuepress/.temp/pages/category/蔬菜" />
+      <excludeFolder url="file://$MODULE_DIR$/src/.vuepress/.temp/pages/category/香蕉" />
+      <excludeFolder url="file://$MODULE_DIR$/src/.vuepress/.temp/pages/tag/使用指南" />
+      <excludeFolder url="file://$MODULE_DIR$/src/.vuepress/.temp/pages/tag/圆" />
+      <excludeFolder url="file://$MODULE_DIR$/src/.vuepress/.temp/pages/tag/大" />
+      <excludeFolder url="file://$MODULE_DIR$/src/.vuepress/.temp/pages/tag/小" />
+      <excludeFolder url="file://$MODULE_DIR$/src/.vuepress/.temp/pages/tag/弯曲的" />
+      <excludeFolder url="file://$MODULE_DIR$/src/.vuepress/.temp/pages/tag/文章加密" />
+      <excludeFolder url="file://$MODULE_DIR$/src/.vuepress/.temp/pages/tag/禁用" />
+      <excludeFolder url="file://$MODULE_DIR$/src/.vuepress/.temp/pages/tag/红" />
+      <excludeFolder url="file://$MODULE_DIR$/src/.vuepress/.temp/pages/tag/长" />
+      <excludeFolder url="file://$MODULE_DIR$/src/.vuepress/.temp/pages/tag/页面配置" />
+      <excludeFolder url="file://$MODULE_DIR$/src/.vuepress/.temp/pages/tag/黄" />
+      <excludeFolder url="file://$MODULE_DIR$/src/.vuepress/.cache" />
+      <excludeFolder url="file://$MODULE_DIR$/src/.vuepress/.temp" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
