@@ -4,5 +4,6 @@
 *.log
 /docs/.vuepress/*.mjs
 .cache/
-.cache/
 .temp/
+/src/.vuepress/.cache
+/src/.vuepress/.temp
